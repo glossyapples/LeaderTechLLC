@@ -3,62 +3,167 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Leader Tech LLC — Technology Consulting & Solutions</title>
-  <meta name="description" content="Leader Tech LLC delivers practical technology consulting, custom software, and cloud solutions for growing businesses." />
-  <meta name="theme-color" content="#0b1b34" />
-  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%230b1b34'/%3E%3Cpath d='M18 18h6v22h14v6H18z' fill='%2363b3ed'/%3E%3C/svg%3E" />
-  <link rel="stylesheet" href="styles.css" />
+  <title>Leadertech LLC — Independent software, games, and automation tools</title>
+  <meta name="description" content="Leadertech LLC builds practical products across AI publishing, mobile games, and agentic automation — designed to save time, unlock creativity, and make complex workflows easier." />
+  <meta name="theme-color" content="#050a18" />
+  <meta property="og:title" content="Leadertech LLC" />
+  <meta property="og:description" content="Independent software, games, and automation tools." />
+  <meta property="og:image" content="/assets/logo-lockup.png" />
+  <meta property="og:type" content="website" />
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%23050a18'/%3E%3Cpolygon points='18,10 30,16 30,46 18,40' fill='%23eef2fb'/%3E%3Cpolygon points='18,40 30,46 54,36 42,30' fill='%232563eb'/%3E%3C/svg%3E" />
+  <link rel="stylesheet" href="/styles.css" />
 </head>
 <body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
   <header class="site-header">
     <div class="container header-row">
-      <a href="#top" class="brand" aria-label="Leader Tech LLC home">
-        <span class="brand-mark" aria-hidden="true">L</span>
-        <span class="brand-name">Leader Tech <span class="brand-llc">LLC</span></span>
+      <a href="#top" class="brand" aria-label="Leadertech LLC home">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 64 80" xmlns="http://www.w3.org/2000/svg">
+            <defs>
+              <linearGradient id="silvSm" x1="0" y1="0" x2="1" y2="1">
+                <stop offset="0%" stop-color="#f4f6fb"/>
+                <stop offset="100%" stop-color="#8b97b0"/>
+              </linearGradient>
+              <linearGradient id="bluSm" x1="0" y1="0" x2="1" y2="1">
+                <stop offset="0%" stop-color="#3b82f6"/>
+                <stop offset="100%" stop-color="#1e40af"/>
+              </linearGradient>
+            </defs>
+            <polygon points="14,6 28,12 28,56 14,50" fill="url(#silvSm)"/>
+            <polygon points="14,50 28,56 60,44 46,38" fill="url(#bluSm)"/>
+          </svg>
+        </span>
+        <span class="brand-name">Leadertech <span class="brand-llc">LLC</span></span>
       </a>
+
       <nav class="nav" aria-label="Primary">
-        <a href="#services">Services</a>
+        <a href="#products">Products</a>
         <a href="#about">About</a>
+        <a href="#roadmap">Roadmap</a>
         <a href="#contact">Contact</a>
+        <a class="btn btn-primary btn-sm" href="#products">Explore Products</a>
       </nav>
     </div>
   </header>
 
-  <main id="top">
-    <section class="hero">
-      <div class="container">
-        <p class="eyebrow">Technology Consulting</p>
-        <h1>Practical technology that moves your business forward.</h1>
-        <p class="lead">
-          We help small and mid-sized companies modernize their software, cloud,
-          and data — without the overhead of a big consulting firm.
-        </p>
-        <div class="cta-row">
-          <a class="btn btn-primary" href="#contact">Start a conversation</a>
-          <a class="btn btn-ghost" href="#services">See what we do</a>
+  <main id="main">
+    <section class="hero" id="top">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow">Built by Leadertech</p>
+          <h1>Independent software, games, and automation tools.</h1>
+          <p class="lead">
+            Leadertech LLC builds practical products across AI publishing,
+            mobile games, and agentic automation — designed to save time,
+            unlock creativity, and make complex workflows easier.
+          </p>
+          <div class="cta-row">
+            <a class="btn btn-primary" href="#products">Explore Products</a>
+            <a class="btn btn-ghost" href="#roadmap">View Roadmap</a>
+          </div>
+        </div>
+        <div class="hero-art" aria-hidden="true">
+          <svg viewBox="0 0 280 320" xmlns="http://www.w3.org/2000/svg">
+            <defs>
+              <linearGradient id="silvLg" x1="0" y1="0" x2="1" y2="1.2">
+                <stop offset="0%" stop-color="#ffffff"/>
+                <stop offset="55%" stop-color="#cdd5e6"/>
+                <stop offset="100%" stop-color="#6b7691"/>
+              </linearGradient>
+              <linearGradient id="bluLg" x1="0" y1="0" x2="1" y2="1">
+                <stop offset="0%" stop-color="#4c8cf7"/>
+                <stop offset="60%" stop-color="#1e63e0"/>
+                <stop offset="100%" stop-color="#11337a"/>
+              </linearGradient>
+              <radialGradient id="glow" cx="50%" cy="55%" r="60%">
+                <stop offset="0%" stop-color="#1e63e0" stop-opacity="0.45"/>
+                <stop offset="60%" stop-color="#0a1226" stop-opacity="0"/>
+              </radialGradient>
+            </defs>
+            <rect width="280" height="320" fill="url(#glow)"/>
+            <polygon points="70,30 120,52 120,220 70,200" fill="url(#silvLg)"/>
+            <polygon points="70,200 120,220 260,170 210,148" fill="url(#bluLg)"/>
+            <polygon points="70,200 80,236 220,188 260,170" fill="#11337a" opacity="0.7"/>
+          </svg>
         </div>
       </div>
     </section>
 
-    <section id="services" class="section">
+    <section id="products" class="section">
       <div class="container">
-        <h2>What we do</h2>
-        <div class="cards">
-          <article class="card">
-            <h3>Software Development</h3>
-            <p>Custom web and internal applications, API integrations, and modernization of legacy systems.</p>
+        <div class="section-head">
+          <p class="eyebrow">Our Products</p>
+          <h2>Thoughtfully built. Actually useful.</h2>
+          <p class="section-sub">
+            Leadertech products span AI-assisted publishing, mobile games,
+            automation systems, and experimental tools — each built around a
+            clear use case and a bias toward shipping.
+          </p>
+        </div>
+
+        <div class="product-grid">
+          <article class="product">
+            <div class="product-media">
+              <img src="/assets/quilligator.png" alt="Quilligator product preview" loading="lazy" />
+              <span class="product-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M20 4c-7 0-12 5-12 12v4h4c7 0 12-5 12-12V4h-4z"/><path d="M4 20l8-8"/></svg>
+              </span>
+            </div>
+            <div class="product-body">
+              <h3>Quilligator</h3>
+              <p class="product-tag">AI Content Publishing</p>
+              <p class="product-desc">
+                AI content publishing for niche sites and product campaigns.
+                Multi-agent workflows for research, writing, publishing, and
+                campaign automation.
+              </p>
+              <p class="product-meta"><span class="price">$79.99</span> Available on Gumroad <span class="arrow" aria-hidden="true">→</span></p>
+            </div>
           </article>
-          <article class="card">
-            <h3>Cloud &amp; Infrastructure</h3>
-            <p>AWS, Azure, and GCP architecture, migrations, and cost-effective infrastructure-as-code.</p>
+
+          <article class="product">
+            <div class="product-media product-media--galaximus">
+              <div class="galaximus-art" aria-hidden="true">
+                <span class="star s1"></span><span class="star s2"></span>
+                <span class="star s3"></span><span class="star s4"></span>
+                <span class="star s5"></span><span class="star s6"></span>
+                <span class="galaximus-text">GALAXIMUS</span>
+                <span class="galaximus-tag">★ RETRO SPACE ★</span>
+              </div>
+              <span class="product-icon product-icon--green" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M5 19c2-6 7-11 13-13-2 6-7 11-13 13z"/><circle cx="14" cy="10" r="1.5"/><path d="M5 19l3-3"/></svg>
+              </span>
+            </div>
+            <div class="product-body">
+              <h3>Galaximus</h3>
+              <p class="product-tag">Retro Space Adventure</p>
+              <p class="product-desc">
+                A retro-inspired space adventure for iPhone. Explore, fight,
+                scan, and survive across strange star systems.
+              </p>
+              <p class="product-meta"><span class="price">$3.99</span> Available on the App Store <span class="arrow" aria-hidden="true">→</span></p>
+            </div>
           </article>
-          <article class="card">
-            <h3>Data &amp; Automation</h3>
-            <p>Data pipelines, reporting, and automation that turn day-to-day operations into measurable wins.</p>
-          </article>
-          <article class="card">
-            <h3>Advisory</h3>
-            <p>Fractional CTO and architecture guidance for teams that need senior input without a full-time hire.</p>
+
+          <article class="product">
+            <div class="product-media product-media--agbro">
+              <img src="/assets/agbro.png" alt="AgBro app preview" loading="lazy" />
+              <span class="product-icon product-icon--mint" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21c-4-2-7-6-7-11a7 7 0 0114 0c0 5-3 9-7 11z"/><path d="M12 13c0-3 1-5 4-7"/><path d="M12 13c0-3-1-5-4-7"/></svg>
+              </span>
+            </div>
+            <div class="product-body">
+              <h3>AgBro</h3>
+              <p class="product-tag">Agentic Brokerage</p>
+              <p class="product-desc">
+                An agentic brokerage app built around autonomous market
+                tracking, strategy management, and investment workflow
+                automation.
+              </p>
+              <p class="product-meta"><span class="status">In development</span><span class="arrow" aria-hidden="true">→</span></p>
+            </div>
           </article>
         </div>
       </div>
@@ -67,29 +172,93 @@
     <section id="about" class="section section-alt">
       <div class="container about-grid">
         <div>
-          <h2>About Leader Tech</h2>
+          <p class="eyebrow">About</p>
+          <h2>Built independently. Designed practically.</h2>
           <p>
-            Leader Tech LLC is an independent technology practice. We partner
-            with founders and operators to ship reliable software, choose the
-            right tools, and avoid the expensive mistakes.
+            Leadertech LLC is an independent technology company creating
+            software, games, and automation tools. Our products are designed
+            around useful workflows, creative experimentation, and fast
+            iteration.
           </p>
           <p>
-            Every engagement starts with listening. We deliver in small,
-            visible increments and stay accountable to outcomes — not hours.
+            We focus on products that can be built, tested, shipped, and
+            improved — not endless pitch decks or theoretical platforms. Every
+            project starts with a simple question: can this make something
+            easier, more useful, or more fun?
           </p>
         </div>
-        <ul class="values">
-          <li><strong>Senior by default.</strong> You work directly with the people doing the work.</li>
-          <li><strong>Pragmatic.</strong> We pick the boring tool that fits, not the trendy one.</li>
-          <li><strong>Transparent.</strong> Clear scope, clear pricing, clear progress.</li>
+        <ul class="pillars">
+          <li>
+            <h4>Software Tools</h4>
+            <p>Focused utilities that automate repetitive work, simplify complex workflows, and help people move faster.</p>
+          </li>
+          <li>
+            <h4>Games</h4>
+            <p>Playable worlds and interactive experiences built around exploration, experimentation, and personality.</p>
+          </li>
+          <li>
+            <h4>AI &amp; Automation</h4>
+            <p>Agentic workflows that assist with research, publishing, strategy, and decision support.</p>
+          </li>
+          <li>
+            <h4>Creative Products</h4>
+            <p>Tools and experiences designed for creators, small businesses, and independent operators.</p>
+          </li>
         </ul>
       </div>
     </section>
 
-    <section id="contact" class="section">
-      <div class="container contact">
-        <h2>Get in touch</h2>
-        <p>Tell us a little about your project and we'll get back to you within one business day.</p>
+    <section id="roadmap" class="section">
+      <div class="container">
+        <div class="section-head">
+          <p class="eyebrow">Roadmap</p>
+          <h2>More in development.</h2>
+          <p class="section-sub">
+            Leadertech is actively developing new products across automation,
+            entertainment, and interactive experiences.
+          </p>
+        </div>
+        <ul class="roadmap">
+          <li>
+            <span class="roadmap-tag">Building</span>
+            <h4>AgBro</h4>
+            <p>Agentic brokerage and investment workflows.</p>
+          </li>
+          <li>
+            <span class="roadmap-tag">Coming soon</span>
+            <h4>GhostHost</h4>
+            <p>Interactive Halloween app for iPhone — spooky, voice-driven entertainment and haunt-style interactions.</p>
+          </li>
+          <li>
+            <span class="roadmap-tag">Coming soon</span>
+            <h4>Neverending Quest</h4>
+            <p>Evolving fantasy adventure built around player choice and endlessly replayable storylines.</p>
+          </li>
+          <li>
+            <span class="roadmap-tag">Experiments</span>
+            <h4>More on the way</h4>
+            <p>Practical tools, games, and creative software in continuous development.</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="closing">
+      <div class="container closing-row">
+        <div>
+          <p class="closing-text">
+            We're a small independent studio building focused products with
+            practical value, creative personality, and room to grow.
+          </p>
+        </div>
+        <a class="btn btn-primary" href="#contact">Get in touch</a>
+      </div>
+    </section>
+
+    <section id="contact" class="section section-alt contact">
+      <div class="container">
+        <p class="eyebrow">Get in touch</p>
+        <h2>Have a project, question, or partnership in mind?</h2>
         <p class="contact-email">
           <a href="mailto:hello@leadertechllc.com">hello@leadertechllc.com</a>
         </p>
@@ -98,8 +267,50 @@
   </main>
 
   <footer class="site-footer">
-    <div class="container footer-row">
-      <span>&copy; <span id="year"></span> Leader Tech LLC. All rights reserved.</span>
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <div class="brand brand--footer">
+          <span class="brand-mark" aria-hidden="true">
+            <svg viewBox="0 0 64 80" xmlns="http://www.w3.org/2000/svg">
+              <polygon points="14,6 28,12 28,56 14,50" fill="#dde3f0"/>
+              <polygon points="14,50 28,56 60,44 46,38" fill="#2563eb"/>
+            </svg>
+          </span>
+          <span class="brand-name">Leadertech <span class="brand-llc">LLC</span></span>
+        </div>
+        <p>Independent software, games, and automation tools.</p>
+      </div>
+
+      <div class="footer-col">
+        <h5>Products</h5>
+        <ul>
+          <li><a href="#products">Quilligator</a></li>
+          <li><a href="#products">Galaximus</a></li>
+          <li><a href="#products">AgBro</a></li>
+          <li><a href="#roadmap">GhostHost</a></li>
+          <li><a href="#roadmap">Neverending Quest</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h5>Company</h5>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#roadmap">Roadmap</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h5>Resources</h5>
+        <ul>
+          <li><a href="#contact">Privacy Policy</a></li>
+          <li><a href="#contact">Terms of Use</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="container footer-base">
+      <span>&copy; <span id="year"></span> Leadertech LLC. All rights reserved.</span>
       <span>leadertechllc.com</span>
     </div>
   </footer>
